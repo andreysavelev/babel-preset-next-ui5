@@ -22,6 +22,6 @@ module.exports = {
         require("babel-plugin-syntax-class-properties"),
         require("babel-plugin-transform-async-to-generator"),
 
-        require("babel-plugin-ui5")
+        require("babel-plugin-next-ui5")
   	]
 };
