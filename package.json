@@ -1,5 +1,5 @@
 {
-  "name": "babel-preset-ui5",
+  "name": "babel-preset-next-ui5",
   "version": "6.1.0",
   "description": "An UNOFFICIAL preset for building SAP UI5 application with Babel.",
   "main": "index.js",
@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MagicCube/babel-preset-ui5.git"
+    "url": "git+https://github.com/andreysavelev/babel-preset-next-ui5.git"
   },
-  "author": "Henry Li <henry.li03@sap.com>",
+  "author": "Andrew Savelev",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MagicCube/babel-preset-ui5/issues"
+    "url": "https://github.com/andreysavelev/babel-preset-next-ui5/issues"
   },
-  "homepage": "https://github.com/MagicCube/babel-preset-ui5#readme",
+  "homepage": "https://github.com/andreysavelev/babel-preset-next-ui5#readme",
   "dependencies": {
     "babel-plugin-check-es2015-constants": "^6.3.13",
     "babel-plugin-transform-es2015-arrow-functions": "^6.3.13",
@@ -49,6 +49,6 @@
     "babel-plugin-syntax-class-properties": "^6.5.0",
     "babel-plugin-transform-async-to-generator": "^6.8.0",
     
-    "babel-plugin-ui5": "^6"
+    "babel-plugin-next-ui5": "^6"
   }
 }
