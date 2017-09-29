@@ -1,18 +1,10 @@
-#FORE MORE INFORMATION, PLEASE VISIT [babel-plugin-ui5](https://github.com/MagicCube/babel-plugin-ui5)
-
-
-# babel-preset-ui5
-An UNOFFICIAL preset for building SAP UI5 application with Babel.
-
-
-
-## Document
-Please take a look at [https://github.com/MagicCube/babel-plugin-ui5](https://github.com/MagicCube/babel-plugin-ui5)
+# babel-preset-next-ui5
+An UNSTABLE UNOFFICIAL preset for building SAP UI5 application with Babel.
 
 ## Install
 
 ```sh
-$ npm install --save-dev babel-preset-ui5
+$ npm install --save-dev babel-preset-next-ui5
 ```
 
 ## Usage
@@ -23,20 +15,20 @@ $ npm install --save-dev babel-preset-ui5
 
 ```json
 {
-  "presets": ["ui5"]
+  "presets": ["next-ui5"]
 }
 ```
 
 ### Via CLI
 
 ```sh
-$ babel script.js --presets ui5
+$ babel script.js --presets next-ui5
 ```
 
 ### Via Node API
 
 ```javascript
 require("babel-core").transform("code", {
-  presets: ["ui5"]
+  presets: ["next-ui5"]
 });
 ```
