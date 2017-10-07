@@ -49,6 +49,6 @@
     "babel-plugin-syntax-class-properties": "^6.5.0",
     "babel-plugin-transform-async-to-generator": "^6.8.0",
     
-    "babel-plugin-next-ui5": "^7"
+    "babel-plugin-next-ui5": "^7.0.3"
   }
 }
